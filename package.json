@@ -5,10 +5,13 @@
   "description": "Root folder for pandu mono-repo.",
   "license": "ISC",
   "main": "index.js",
+  "scripts": {
+    "migrate-dev": "npx prisma migrate dev --name init"
+  },
   "devDependencies": {
     "@types/node": "^18.11.9",
-    "@typescript-eslint/eslint-plugin": "^5.44.0",
-    "@typescript-eslint/parser": "^5.44.0",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
     "eslint": "^8.28.0",
     "prisma": "^4.6.1",
     "ts-node": "^10.9.1",
